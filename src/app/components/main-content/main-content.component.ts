@@ -4,10 +4,12 @@ import { Fournisseur } from '../../models/fournisseur.model';
 import { ToolbarModule } from 'primeng/toolbar';
 import { TableModule } from 'primeng/table';
 import { DatePipe } from '@angular/common';
+import { ButtonModule } from 'primeng/button';
+import { InputTextModule } from 'primeng/inputtext';
 @Component({
   selector: 'app-main-content',
   standalone: true,
-  imports: [ToolbarModule, TableModule, DatePipe],
+  imports: [ToolbarModule, TableModule, DatePipe,ButtonModule,InputTextModule],
   templateUrl: './main-content.component.html',
   styleUrl: './main-content.component.scss',
 })
