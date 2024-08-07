@@ -42,3 +42,29 @@
 }
 
 
+.top-bar-content {
+    display: flex;
+  }
+  
+  .logo-container {
+    width: 50px; /* Adjust width as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .title-container {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title-container h2 {
+    font-weight: 400;
+  }
