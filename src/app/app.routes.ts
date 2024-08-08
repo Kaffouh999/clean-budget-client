@@ -1,5 +1,5 @@
 import { Routes } from '@angular/router';
-import { AjustementBudgetComponent } from './components/budget/ajustement-budget/ajustement-budget.component';
+import { AjustementBudgetComponent } from './components/budget/ajustement-part-budget/ajustement-part-budget.component';
 import { BudgetComponent } from './components/budget/budget/budget.component';
 import { CategorieBudgetComponent } from './components/budget/categorie-budget/categorie-budget.component';
 import { DemandeBudgetComponent } from './components/demande/demande-budget/demande-budget.component';
