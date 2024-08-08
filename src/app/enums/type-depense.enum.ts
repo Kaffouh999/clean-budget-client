@@ -1,0 +1,4 @@
+enum TypeDepense {
+    DEPENSE = 'DEPENSE',
+    REMBOURSEMENT = 'REMBOURSEMENT'
+}

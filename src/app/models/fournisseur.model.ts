@@ -1,5 +1,5 @@
 export interface Fournisseur {
-  id: number;
+  id?: number;
   nom: string;
   description?: string;
   email?: string;

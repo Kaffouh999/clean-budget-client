@@ -1,4 +1,4 @@
-export interface DepartementDTO {
+export interface Departement {
     id?: number;
     nom: string;
     description?: string;
@@ -6,5 +6,5 @@ export interface DepartementDTO {
     telephone?: string;
     adresse?: string;
     localisation?: string;
-    departementParent?: DepartementDTO;
+    departementParent?: Departement;
 }

@@ -1,0 +1,4 @@
+enum TypeOperation {
+    CREATION = 'CREATION',
+    MODIFICATION = 'MODIFICATION'
+}
