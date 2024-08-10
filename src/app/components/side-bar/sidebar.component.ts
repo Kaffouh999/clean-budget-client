@@ -22,6 +22,7 @@ export class SidebarComponent implements OnInit {
           { icon: 'pi pi-fw pi-tag',label: 'Direction', routerLink: 'departement' },
           { label: 'Employe', icon: 'pi pi-fw pi-tag', routerLink: 'employe' },
           { label: 'Role', icon: 'pi pi-fw pi-tag', routerLink: 'departements' },
+          { label: 'Fournisseur', icon: 'pi pi-fw pi-tag', routerLink: 'fournisseur' }
         ]
       },
       {
