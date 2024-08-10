@@ -1,5 +1,5 @@
 import { Routes } from '@angular/router';
-import { AjustementBudgetComponent } from './components/budget/ajustement-part-budget/ajustement-part-budget.component';
+import { AjustementPartBudgetComponent } from './components/budget/ajustement-part-budget/ajustement-part-budget.component';
 import { BudgetComponent } from './components/budget/budget/budget.component';
 import { CategorieBudgetComponent } from './components/budget/categorie-budget/categorie-budget.component';
 import { DemandeBudgetComponent } from './components/demande/demande-budget/demande-budget.component';
@@ -15,7 +15,7 @@ import { PartBudgetComponent } from './components/budget/part-budget/part-budget
 import { ProcedureValidationComponent } from './components/demande/procedure-validation/procedure-validation.component';
 
 export const routes: Routes = [
-  { path: 'ajustement-budget', component: AjustementBudgetComponent },
+  { path: 'ajustement-budget', component: AjustementPartBudgetComponent },
   { path: 'budget', component: BudgetComponent },
   { path: 'categorie-budget', component: CategorieBudgetComponent },
   { path: 'part-budget', component: PartBudgetComponent },
