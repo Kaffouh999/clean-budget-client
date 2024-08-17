@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { AppConfig } from '../../../app.config';
 import { Observable } from 'rxjs';
+import { AppConfig } from '../../../app.config';
 import { Fournisseur } from '../../../models/fournisseur.model';
 
 @Injectable({
@@ -15,7 +15,7 @@ export class FournisseurService {
     return this.http.get<Fournisseur[]>(this.apiUrl);
   }
 
-  findById(id: number): Observable<Fournisseur> {
+  findById(id: number|undefined): Observable<Fournisseur> {
     return this.http.get<Fournisseur>(this.apiUrl + '/' + id);
   }
 
@@ -30,7 +30,7 @@ export class FournisseurService {
     );
   }
 
-  delete(id: number): Observable<Fournisseur> {
+  delete(id: number | undefined): Observable<Fournisseur> {
     return this.http.delete<Fournisseur>(this.apiUrl + '/' + id);
   }
 }

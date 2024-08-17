@@ -1,0 +1,46 @@
+<!-- your-component.component.html -->
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div class="formgrid grid">
+      <div class="col-12 p-md-6 p-lg-4 mt-3">
+        <p-floatLabel>
+            <input id="nom" pInputText formControlName="nom"  />
+          <label for="nom">Nom</label>
+        </p-floatLabel>
+      </div>
+  
+      <div class="col-12 p-md-12 p-lg-12 mt-3">
+        <p-floatLabel>
+            <input id="description" pInputText formControlName="description" >
+          <label for="description">Description</label>
+        </p-floatLabel>
+      </div>
+  
+      <div class="col-6 p-md-6 p-lg-4 mt-3">
+        <p-floatLabel>
+            <input id="email" pInputText formControlName="email"  />
+          <label for="email">Email</label>
+        </p-floatLabel>
+      </div>
+  
+      <div class="col-6 p-md-6 p-lg-4 mt-3">
+        <p-floatLabel>
+            <input id="telephone" pInputText formControlName="telephone"  />
+
+          <label htmlFor="telephone">Téléphone</label>
+        </p-floatLabel>
+      </div>
+      <div class="col-12 p-md-12 p-lg-12 mt-3">
+        <p-floatLabel>
+            <input id="adresse" pInputText formControlName="adresse" >
+          <label for="adresse">Adress</label>
+        </p-floatLabel>
+      </div>
+    </div>
+   
+  </form>
+   <div style="display: flex; justify-content: space-around;">
+    <button pButton type="button" label="Enregistrer" severity="success" class="flex w-full t mt-3 " (click)="onSubmit()"></button>
+    <button type="button" pButton label="Cancel" severity="secondary" icon="pi pi-times" (click)="closeDialog()" class="flex w-full  mt-3" ></button>
+    </div>
+  
+`

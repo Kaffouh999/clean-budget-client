@@ -1,0 +1,19 @@
+ .p-inputtext {
+    width: 100%;
+ 
+  }
+  :host ::ng-deep .p-float-label {
+    margin-block: 7px;
+}
+
+  .p-button{
+    margin-inline: 1vw;
+  }
+  :host ::ng-deep .p-dialog .p-dialog-header {
+    border-bottom: 0 none;
+    background: #373c46;
+    color: #f7f8f9;
+}
+  /* Adjust the floating label position */
+
+
