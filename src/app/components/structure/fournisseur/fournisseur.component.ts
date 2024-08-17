@@ -13,6 +13,7 @@ import { DeleteFournisseurComponent } from './delete-fournisseur/delete-fourniss
 import { FournisseurService } from './fournisseur.service';
 
 @Component({
+  providers: [DialogService],
   selector: 'app-fournisseur',
   standalone: true,
   imports: [ToastModule,ToolbarModule, TableModule, DatePipe,ButtonModule,InputTextModule,DynamicDialogModule,CommonModule],
